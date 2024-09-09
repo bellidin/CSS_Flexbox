@@ -1,0 +1,47 @@
+.container{
+    background-color:#d7cdc2;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item:nth-child(2){
+    flex-shrink: 3;
+    order: 1;
+}
+
+.item:nth-child(5){
+    flex-grow: 1;
+    order: 5;
+}
+
+.item:nth-child(3){
+    order: 2;
+    align-self: flex-end;
+}
+
+.item:nth-child(1){
+    order: 3;
+}
+
+.item:nth-child(4){
+    order: 4;
+}
+
+.item:nth-child(6){
+    order: 6;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #b3b792;
+    margin: 10px;
+    color: #725c3a;
+    font-size: 32px;
+    /* alinhando os números */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
